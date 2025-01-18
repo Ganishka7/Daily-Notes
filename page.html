@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Mark</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Daily Notes</h1>
+    </div>
+    <div class="container">
+        <div class="specify">
+            <h2>Learned About JS</h2>
+            <h3>05/12/2024</h3>
+            <p>Today i learned about event listerner in javascript and also did a project based on event listener , the experience was assume</p>
+            <button onclick="del(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="info">
+        <h3>About</h3>
+        <form>
+        <input type="text" placeholder="Day in short" id="title">
+        <input type="text" placeholder="Date" id="thedhi">
+        <textarea placeholder="Short Description" id="description"></textarea>
+        <button id="add">Add</button>
+        <button id="cancel">Cancel</button>
+    </form> 
+    </div>
+    
+    <button class="add" id="pop">+</button>
+
+    <script src="javascrpt.js"></script>
+</body>
+</html>
